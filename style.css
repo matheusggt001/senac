@@ -1,0 +1,44 @@
+#CAL {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100vw;
+      width: 100px;
+      background-color: rgb(59, 80, 80);
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  body {
+    background: url("veot.jpg");
+    margin: 100px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+  
+  h1 {
+    color: rgb(163, 33, 33);
+    margin-left: 40%;
+
+  }
+  p {
+    color: rgb(180, 199, 207);
+    margin:
+  }
+  #CAL2{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-delay: 0.3s;
+  }
+  #CAL3{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-delay: 0.5s;
+  }
