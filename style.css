@@ -1,0 +1,60 @@
+#CAL {
+    animation-duration: 5s;
+    animation-name:slidein;
+   
+  }
+  #tenis:hover{
+    transform: scale(1.3);
+    
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100vw;
+      width: 70px;
+      background-color: black;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 80%;
+    }
+  }
+  body {
+    background: url("tente.jpg");
+    margin: 80px;
+    background-attachment: fixed;
+    background-size: 80% 80%;
+}
+
+  
+  h1 {
+    color: rgb(89, 184, 147);
+    margin-left: 40%;
+
+  }
+  p {
+    color: rgb(4, 253, 149);
+    margin: 50px
+    
+  }
+  #CAL2{
+    animation-duration: 6s;
+    animation-name: slidein;
+    
+  }
+  #CAL3{
+    animation-duration: 7s;
+    animation-name: slidein;
+  
+  }
+  #calça:hover{
+    transform: scale(1.3);
+  }
+  #camisetas:hover{
+    transform: scale(1.3);
+  }
+  
+    
+  
